@@ -1,0 +1,93 @@
+
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+}
+.head{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.move{
+    height: 50px;
+}
+
+#Rock{
+    background: transparent;
+    border: 3px solid white;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    margin-right: 15px;
+}
+#Paper{
+    background: transparent;
+    border: 3px solid white;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    margin-right: 15px;
+}
+#Seizer{
+    background: transparent;
+    border: 3px solid white;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+}
+#Rock:hover{
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+}
+
+#Rock:active{
+    background-color: rgb(57, 57, 57);
+}
+#Paper:hover{
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+}
+
+#Rock:active{
+    background-color: rgb(57, 57, 57);
+}
+#Seizer:hover{
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+}
+
+#Rock:active{
+    background-color: rgb(57, 57, 57);
+}
+
+.Result{
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.players-move{
+    margin-top: 40px;
+}
+
+.score{
+    margin-top: 40px;
+}
+
+.reset{
+    margin-top: 20px;
+    /* border: 3px solid white; */
+    border-radius: 20px;
+    height: 30px;
+    width: 102px;
+    font-size: 15px;
+    font-weight:bold;
+    background: rgb(67, 146, 236);
+}
+
+#reset-score:hover{
+    background-color: rgb(67, 146, 236);
+}
+#reset-score:active{
+    background-color: rgb(119, 158, 249);
+}

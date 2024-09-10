@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/rock-paper.css">
+    
+</head>
+<body>
+    <p class="head">Rock Paper Seizer</p>
+    <button id="Rock" ><img src="image/rock-emoji.png" class="move">
+    </button>
+    <button id="Paper">
+        <img src="image/paper-emoji.png" class="move">
+    </button>
+    <button id="Seizer">
+        <img src="image/seizer-emoji.png" class="move">
+    </button>
+    <p class="Result result"></p>
+
+    <p class="players-move players-move"></p>
+   
+    <p class="score-js score"></p>
+    <p>
+        <button id="reset-score" onclick="
+            score.win = 0;
+            score.loose = 0;
+            score.tie = 0;
+            updatescore();
+            " class="reset">Reset score</button>
+    </p>
+<script src="/09-rock-paper.js"></script>
+</body>
+
+</html>
